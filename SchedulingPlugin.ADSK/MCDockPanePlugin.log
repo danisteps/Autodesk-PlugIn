@@ -1,0 +1,71 @@
+﻿Build started 10-Jul-16 4:02:10 PM.
+     1>Project "C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\MCDockPanePlugin.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\boost_1_55_0" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\SchedulingPlugin.ADSK.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /TP /FU"C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\NavisworksAPI\Autodesk.Navisworks.Api.dll" /FU"C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\NavisworksAPI\Autodesk.Navisworks.Timeliner.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib SchedulingPlugin.cpp
+         SchedulingPlugin.cpp
+     1>c:\users\dani\documents\navisworks_2016_api_training_labs\plugin (manage c++)\mcdockpaneplugin\Element.cpp(43): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\dani\documents\navisworks_2016_api_training_labs\plugin (manage c++)\mcdockpaneplugin\Element.cpp(53): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\dani\documents\navisworks_2016_api_training_labs\plugin (manage c++)\mcdockpaneplugin\MTRand.h(249): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\dani\documents\navisworks_2016_api_training_labs\plugin (manage c++)\mcdockpaneplugin\MTRand.h(257): warning C4800: 'size_t' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dani\documents\navisworks_2016_api_training_labs\plugin (manage c++)\mcdockpaneplugin\Population.h(69): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\dani\documents\navisworks_2016_api_training_labs\plugin (manage c++)\mcdockpaneplugin\Population.h(73): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+                 C:\Program Files\boost_1_55_0\boost/algorithm/string/detail/classification.hpp(102) : see reference to function template instantiation '_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=char *
+         ,            _InIt=const char *
+                 ]
+                 C:\Program Files\boost_1_55_0\boost/algorithm/string/classification.hpp(206) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<char>::is_any_ofF<boost::iterator_range<const char *>>(const RangeT &)' being compiled
+                 with
+                 [
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 C:\Program Files\boost_1_55_0\boost/algorithm/string/classification.hpp(206) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<char>::is_any_ofF<boost::iterator_range<const char *>>(const RangeT &)' being compiled
+                 with
+                 [
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 c:\users\dani\documents\navisworks_2016_api_training_labs\plugin (manage c++)\mcdockpaneplugin\Element.cpp(35) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<char> boost::algorithm::is_any_of<const char[2]>(RangeT (&))' being compiled
+                 with
+                 [
+                     RangeT=const char [2]
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\SchedulingPlugin.ADSK.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\SchedulingPlugin.ADSK.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\Element.obj
+         x64\Debug\guicon.obj
+         x64\Debug\SchedulingPlugin.obj
+         x64\Debug\Scheduler.obj
+         x64\Debug\stdafx.obj
+         "x64\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         MCDockPanePlugin.vcxproj -> C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\SchedulingPlugin.ADSK.dll
+       PostBuildEvent:
+         IF EXIST "C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\..\..\..\..\..\..\Plugins\SchedulingPlugin.ADSK\" rmdir /S /Q "C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\..\..\..\..\..\..\Plugins\SchedulingPlugin.ADSK\"
+         xcopy /Y "C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\*.*" "C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\..\..\..\..\..\..\Plugins\SchedulingPlugin.ADSK\"
+         :VCEnd
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\app.res
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\AssemblyInfo.obj
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\Autodesk.Navisworks.Timeliner.dll
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\Element.obj
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\guicon.obj
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\MCDockPanePlugin.log
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\MCDockPanePlugin.vcxprojResolveAssemblyReference.cache
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\Scheduler.obj
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\SchedulingPlugin.ADSK.dll
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\SchedulingPlugin.ADSK.dll.metagen
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\SchedulingPlugin.ADSK.pch
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\SchedulingPlugin.ADSK.pdb
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\SchedulingPlugin.obj
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\stdafx.obj
+         C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\x64\Debug\vc120.pdb
+         16 File(s) copied
+     1>Done Building Project "C:\Users\Dani\Documents\Navisworks_2016_API_Training_Labs\Plugin (manage C++)\MCDockPanePlugin\MCDockPanePlugin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.28
